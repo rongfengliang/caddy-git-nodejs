@@ -1,0 +1,6 @@
+0.0.0.0
+root src
+git  https://github.com/rongfengliang/spec-md-demo.git {
+interval    10
+then yarn build
+}

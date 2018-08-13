@@ -1,0 +1,7 @@
+version: "3"
+services:
+  website:
+    build: ./
+    image: dalongrong/caddy-node-build
+    ports:
+    - "8090:2015"
